@@ -35,7 +35,7 @@ int main(int argc, char* argv[])
     int totalFuel = 0;
     int mass;
     std::ifstream fin;
-    fin.open("input");
+    fin.open("../input");
 
     while(fin >> mass)
     {
